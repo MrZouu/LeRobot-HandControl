@@ -10,3 +10,6 @@ Hand gesture‑based control interface for robotics systems. This project was bu
 
 <br/>
 ⚙️ Hugging Face Hackathon 2025 — created within the event timeframe, focused on gesture‑based robot control.
+
+#  Credits
+* [**Lorenzo**](https://github.com/MrZouu) : Creator of the project.
