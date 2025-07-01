@@ -31,7 +31,7 @@ Hand gesture‑based control interface for robotics systems. This project was bu
 # Getting Started
 ### Hand Gesture Recognition Module
 
-This module uses **MediaPipe** to detect and track 3D hand landmarks in real time using a standard webcam. It is part of the BlueXplorer project and intended to be run on a Raspberry Pi or any compatible Linux machine.
+This module uses **MediaPipe** to detect and track 3D hand landmarks in real time using a standard webcam. It is part of the HuggingFace LeRobot project and intended to be run on with any LeRobot product.
 
 ---
 
@@ -54,6 +54,10 @@ pip install mediapipe==0.10.5 protobuf==4.21.12 pyserial==3.5 opencv-python==4.7
 
 ## 4. Run the calibration
 For calibration, use a checkerboard with 11.5 cm squares and take at least 10 captures, or adapt the code for different dimensions.
+<p>
+	<img src="./assets/pattern.png" width="30%">
+</p>
+
 ```bash
 python3 camera_calibration.py
 ```
